@@ -7,26 +7,13 @@
     app:cardElevation="1dp"
     app:cardUseCompatPadding="true"
     app:contentPadding="3dp"
-    app:cardBackgroundColor="@color/white"
+    app:cardBackgroundColor="@color/teal_700"
     >
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         >
-
-        <!--
-        <com.blogspot.atifsoftwares.circularimageview.CircularImageView
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:layout_centerVertical="true"
-            android:src="@drawable/ic_image001"
-            app:c_border="true"
-            app:c_border_width="1dp"
-            app:c_border_color="@color/black"
-            android:id="@+id/civImage2"
-            />
-            -->
 
         <LinearLayout
             android:layout_width="match_parent"

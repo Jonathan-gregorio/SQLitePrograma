@@ -11,7 +11,7 @@
         android:layout_height="200dp"
         android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
-        android:src="@android:drawable/ic_menu_camera"
+        android:src="@android:drawable/ic_menu_add"
         android:id="@+id/civImage"
         />
 

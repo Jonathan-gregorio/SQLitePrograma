@@ -30,25 +30,6 @@
             android:stretchColumns="2">
 
             <TableRow>
-
-                <TextView
-                    android:id="@+id/tvProduct"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_span="3"
-                    android:layout_weight="1"
-                    android:gravity="top"
-                    android:padding="15dp"
-                    android:text="Texto"
-                    android:textSize="30dp"
-                    android:textAlignment="gravity"
-                    android:textColor="@color/black"
-                    />
-
-
-            </TableRow>
-
-            <TableRow>
                 <TextView
                     android:id="@+id/tvDescription"
                     android:layout_width="match_parent"
@@ -60,6 +41,24 @@
                     android:textSize="15sp"
                     android:textColor="@color/black"
                     />
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/tvProduct"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="3"
+                        android:layout_weight="1"
+                        android:gravity="top"
+                        android:padding="15dp"
+                        android:text="Texto"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/black"
+                        android:textSize="30dp" />
+
+
+                </TableRow>
             </TableRow>
 
             <TableRow>
